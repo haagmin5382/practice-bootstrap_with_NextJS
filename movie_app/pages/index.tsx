@@ -5,8 +5,8 @@ const Home: NextPage = () => {
   return (
     <>
       <main>
-        <Image src={background} />
-        <h1 className="position-absolute top-50 start-50 text-white-50">
+        <Image alt="filmImage" src={background} layout="fill" z-index="999" />
+        <h1 className="position-absolute top-50 start-50 translate-middle text-white-50 ">
           My Movie App
         </h1>
       </main>
