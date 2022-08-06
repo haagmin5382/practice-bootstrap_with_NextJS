@@ -5,7 +5,10 @@ const Home: NextPage = () => {
   return (
     <>
       <main>
-        <Image src={background} layout="fill" />
+        <Image src={background} />
+        <h1 className="position-absolute top-50 start-50 text-white-50">
+          My Movie App
+        </h1>
       </main>
     </>
   );
