@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import NavBar from "./Nav";
 import Title from "./Title";
 
@@ -11,7 +12,9 @@ export default function Layout({ children }: LayoutProps) {
     <>
       <Title />
       <NavBar />
+
       <div>{children}</div>
+      <Footer />
     </>
   );
 }
